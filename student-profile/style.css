@@ -1,0 +1,41 @@
+/* Universal Selector - reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Class Selector */
+.section-box {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* ID Selector */
+#student-name {
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Group Selector */
+h2, h3 {
+    color: darkgreen;
+    font-family: Arial, sans-serif;
+}
+
+/* Descendant Selectors */
+section ul li {
+    color: #555;
+    font-style: italic;
+}
